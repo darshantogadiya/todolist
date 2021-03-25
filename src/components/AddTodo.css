@@ -1,0 +1,49 @@
+
+  
+  /* Include the padding and border in an element's total width and height */
+ 
+  .myh2{
+    margin:5px;
+  }
+  
+
+  
+  .todoc{
+    margin-bottom: 1000px;
+    max-width: 5000px;
+    margin:10px 100px 10px 1000px;
+  
+  }
+  .header1 {
+    background-color: #ada2a2;
+    padding: 30px 40px;
+    color: white;
+    text-align: center;
+  }
+  
+  /* Style the header */
+  .header {
+    background-color: #ada2a2;
+    padding: 30px 40px;
+    color: white;
+    text-align: center;
+  }
+  
+  /* Clear floats after the header */
+  .header:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Style the input */
+  input {
+    margin: 0;
+    border: none;
+    border-radius: 0;
+    width: 100%;
+    padding: 10px;
+    float: left;
+    font-size: 16px;
+  }
+  

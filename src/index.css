@@ -1,0 +1,77 @@
+
+
+
+.link{
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+  cursor: pointer;
+  
+}
+.todoc{
+  position:absolute;
+  top:18%;
+  right: 0%;
+  bottom: 5%;
+  width: 30%;
+  margin-bottom: 1000px;
+  margin:10px 100px 10px 1000px;
+
+}
+.header1 {
+  background-color: #ada2a2;
+  padding: 30px 40px;
+  color: white;
+  text-align: center;
+}
+.pen{
+  background-color: #5a5858;
+  padding: 10px 40px;
+  color: rgb(7, 156, 32);
+  text-align: center;
+  
+}
+.com{
+  background-color: #5a5858;
+  padding: 10px 40px;
+  color: rgb(241, 136, 16);
+  text-align: center;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+/* Style the list items */
+ul li {
+  cursor: pointer;
+  position: relative;
+  padding: 12px 8px 12px 40px;
+  list-style-type: none;
+  background: #eee;
+  font-size: 18px;
+  transition: 0.2s;
+  
+  /* make the list items unselectable */
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Set all odd list items to a different color (zebra-stripes) */
+ul li:nth-child(odd) {
+  background: #f9f9f9;
+}
+
+/* Darker background-color on hover */
+ul li:hover {
+  background: #ddd;
+}
+
+/* When clicked on, add a background color and strike out text */
+ul li.checked {
+  background: #888;
+  color: #fff;
+  text-decoration: line-through;
+}
